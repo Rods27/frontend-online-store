@@ -1,0 +1,253 @@
+body{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+  Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: rgb(236, 232, 232);
+}
+
+.master-container {
+  margin: 0 auto;
+}
+
+.center-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  background: #2e99d6;
+  height: 100px;
+  margin: 0%;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.1), 0 -1px 2px 0 rgba(0,0,0,.1);
+}
+
+.form-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.shopping-cart-div {
+  margin-right: 20px;
+  padding: 2px 5px 0 2px;
+  border-radius: 8px;
+}
+
+.fa-cart-plus {
+  color: white;
+  font-size: 40px;
+  margin-left: 15px;
+  transition: 0.2s;
+}
+
+.fa-cart-plus:hover {
+  color: #333;
+}
+
+.searchForm{
+  display: flex;
+  align-items: center;
+}
+
+.search-button {
+  color: white;
+  background: transparent;
+  outline: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 45px;
+  margin-right: 15px;
+  transition: 0.2s;
+}
+
+.search-button:hover {
+  color: #333;
+}
+
+.search-input {
+  height: 30px;
+  width: 700px;
+  box-shadow: 1px 1px 2px 0 rgba(0,0,0,.5);
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  font-size: 16.5px;
+  border-radius: 3px;
+}
+
+.addToCart {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.price {
+  width: 100%;
+  position: relative;
+  color: #333;
+  font-size: 25px;
+  margin-left: 5px;
+}
+
+.add-button {
+  background: transparent;
+  border: none;
+  color:  #3acde7;
+  cursor: pointer;
+  text-shadow: rgba(0, 0, 0, 0.5) 0 1px 2px;
+  width: 60px;
+  height: 60px;
+  margin-right: 5px;
+  transition: 0.3s;
+}
+
+.add-button i{
+  font-size: 50px;
+  width: 100%;
+}
+
+.add-button:hover {
+  color: #333;
+}
+
+.add-button:focus {
+  color: #333;
+  outline: none;
+}
+
+.shoppingcart-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  display: flex;
+  min-height: 750px;
+  margin: 100px auto;
+  width: 1000px;
+}
+
+.shoppingcart-content {
+  width: 900px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row;
+  margin: 20px 0 20px 0;
+  height: 220px;
+  background-color: rgb(255, 255, 255);
+}
+
+.detail-img-div {
+  display: flex;
+  justify-content: left;
+  height: 200px;
+  width: 400px;
+}
+
+.detail-img-div img {
+  width: 50%;
+}
+
+.right-content {
+  height: 250px;
+  text-align: right;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
+  'Helvetica Neue', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.detail-price {
+  background-color: #0cce1c;
+  border-radius: 8px;
+  color: white;
+  display: flex;
+  font-size: 17px;
+  font-weight: 400;
+  justify-content: center;
+  padding: 9px 15px;
+  max-width: 115px;
+  min-width: 75px;
+}
+
+.price-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 20px;
+  font-weight: 600;
+}
+
+.quantity-div {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.quantity-div p{
+  margin: 0 10px;
+}
+
+.hr{
+  width: 900px;
+  margin-top: 35px;
+  border: 0.3px solid rgba(97, 96, 96, 0.125);
+}
+
+.empty-cart-div {
+  display: flex;
+  align-items: center;
+  height: 55vh;
+}
+
+.details-backarrow-div{
+  width: 92%;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0 20px 0; 
+}
+
+.fa-arrow-left {
+  font-size: 50px;
+  color: #333;
+  transition: .5s;
+}
+
+.fa-arrow-left:hover {
+  opacity: .8;
+}
+
+.shoppingcart-submit{
+  background: #3483fa;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font: 100 20px Arial , Helvetica , sans-serif;
+  line-height: 23.94px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: rgba(0, 0, 0, 0.5) 0 1px 2px;
+  width: 250px;
+  height: 50px;
+  transition: .4s;
+}
+
+.shoppingcart-submit:hover {
+  opacity: .7;
+}
