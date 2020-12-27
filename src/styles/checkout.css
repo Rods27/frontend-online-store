@@ -235,7 +235,7 @@ input[type=radio] {
 }
 
 .checkout-button:hover:enabled {
-  opacity: 80%;
+  opacity: 0.8;
   cursor: pointer;
 }
 
