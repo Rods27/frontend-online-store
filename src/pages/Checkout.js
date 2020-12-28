@@ -83,23 +83,23 @@ class Checkout extends React.Component {
       state,
       payment
     }= this.state;
-    const { products, renderConfirm, statePrice, stateQuantity } = this.props;
+    const { products, renderConfirm, statePrice, stateQuantity, stateCart } = this.props;
     const user= { email, cep, cpf, adress, city, nome, num, phone, state, payment };
     return (
       <div className="checkout-container">
-        <Confirmation user={this.state.user} products={ products } user={ user } />
+        <Confirmation user={ user } />
         <div className="checkout-container-2">
           <div className="checkout-top-content">
             <h3>Revise seus Produtos</h3>
-            {products.map((item) =>  {
-              const qtd = stateQuantity[item.product.id]
+            {stateCart.map((item) =>  {
+              const qtd = stateQuantity[item.id]
               return (
                 <div key={ this.id }>
                   <div className="checkout-product-container">
-                    <img src={ item.product.thumbnail } alt="imagem do procuto" />
-                    <h3>{item.product.title}</h3>
+                    <img src={ item.thumbnail } alt="imagem do procuto" />
+                    <h3>{item.title}</h3>
                     <span>R$</span>
-                    <h4>{item.product.price}</h4>
+                    <h4>{item.price}</h4>
                     <span style={{fontSize: '14px;'}}>Qtd. {qtd}</span>
                   </div>
                   <hr className="checkout-hr" />
@@ -202,6 +202,7 @@ Checkout.propTypes = {
 const mapStateToProps = (state) => ({
   statePrice: state.price.price,
   stateQuantity: state.price.quantity,
+  stateCart: state.product.cart,
 });
 
 const mapDispatchToProps = (dispatch) => ({
