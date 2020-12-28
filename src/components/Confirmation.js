@@ -12,26 +12,23 @@ class Confirmation extends React.Component {
   }
 
   render() {
-    const { products, user, stateQuantity } = this.props;
-    console.log(user.nome, user.cpf, user.email, user.phone,)
-    console.log(user.adress, user.num, user.city, user.state)
-    console.log(user.payment)
+    const { products, user, stateQuantity, stateCart } = this.props;
     return (
       <div className="confirmation-obscure-background">
         <div className="confirmation-container">
           <h4>Confirme seus dados: </h4>
           <div className="confirmation-top-content">
             <div className="products">
-            {products.map((item) => {
-              const qtd = stateQuantity[item.product.id]
+            {(stateCart) && stateCart.map((item) => {
+              const qtd = stateQuantity[item.id]
               return (
                 <div key={ this.id }>
                   <div className="checkout-product-container">
-                    <img src={ item.product.thumbnail } alt="imagem do procuto" />
-                    <h4>{item.product.title}</h4>
+                    <img src={ item.thumbnail } alt="imagem do procuto" />
+                    <h4>{item.title}</h4>
                     <p style={{margin: '0', padding: '0'}}>R$</p>
                     <div className="confirmation-price">
-                      <h5>{item.product.price}</h5>
+                      <h5>{item.price}</h5>
                       <span>Qtd. {qtd}</span>
                     </div>
                   </div>
@@ -92,7 +89,8 @@ Confirmation.propTypes = {
 
 const mapStateToProps = (state) => ({
   statePrice: state.price.price,
-  stateQuantity: state.price.quantity
+  stateQuantity: state.price.quantity,
+  stateCart: state.product.cart,
 });
 
 export default connect(mapStateToProps)(Confirmation);
