@@ -61,3 +61,21 @@ Email: rods.leite27@gmail.com e <a href="https://linkedin.com/in/rodrigoleite27"
     </ul><br>
   </li>
 </ul>
+
+## Pré Requisitos
+<ul>
+  <li>Npm</li>
+  <li>Node</li>
+  <li>React</li>
+  <li>React-thunk</li>
+  <li>React Redux</li>
+</ul>
+
+### Instalando
+Após intalar Node e Npm: 
+React<br><br>
+`npm i react`<br><br>
+Redux<br><br>
+`npm i redux`<br><br>
+Redux-Thunk<br><br>
+`npm i redux-thunk`<br><br>
