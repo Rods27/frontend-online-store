@@ -5,6 +5,8 @@
 <img align ="left" src="/src/img/app-images/app-4.png" width="450" alt="imagem-4"/>
 
 Se quiser ver cada imagem individualmente clique <a href="https://github.com/Rods27/frontend-online-store/tree/master/src/img/app-images">aqui.</a>
+
+
 ## O QUE DEVERÁ SER DESENVOLVIDO
 
 Neste projeto você criará uma versão simplificada, sem persistência no banco de dados, de uma **loja online**, desenvolvendo em grupo suas funcionalidades de acordo com demandas definidas em um quadro _Kanban_, em um cenário mais próximo ao do mercado de trabalho. A partir dessas demandas, teremos uma aplicação onde os usuários poderão:
