@@ -19,6 +19,7 @@ Email: rods.leite27@gmail.com e <a href="https://linkedin.com/in/rodrigoleite27"
 <ul>
   <li>Não tem tela de Login</li>
   <li>Os formulários são apenas por questão de layout</li>
+  <li>O crivo na tela de Checkout é simples, já que o critério por enquanto, não é segurança.</li>
   <li>Não implementado mobile.</li>
 </ul>
 
@@ -32,8 +33,31 @@ Email: rods.leite27@gmail.com e <a href="https://linkedin.com/in/rodrigoleite27"
   <li>Search
     <ul>
       <li>Pesquisa produtos de acordo com a categoria ou a query digitada na barra de buscas.</li>  
-      <li>Lista os produtos e o usuário pode adicoina-los ao carrinho. </li> 
+      <li>Lista os produtos e o usuário pode adicoina-los ao carrinho uma vez.</li> 
     </ul>
   </li>
+  <li>Product Details
+    <ul>
+      <li>Pode ser acessado através do Search, clicando na imagem do produto.</li>  
+      <li>Pode adicionar ao carrinho uma vez e deixar um comentário.</li> 
+    </ul>
+  </li>
+  <li>Toogle Shopping Cart
+    <ul>
+      <li>Mostra os produtos adicionados ao carrinho, o usuário pode adicionar ou diminuir a quantidade, caso seja 0 o produto saírá da lista.</li>  
+      <li>O usuário pode acessar a tela de Checkout pelo botão Finalizar Compra</li> 
+    </ul>
+   <li>Checkout
+    <ul>
+      <li>
+        Mostra os produtos adicionados ao carrinho, o usuário deve preencher com suas informações e forma de pagamento para conseguir acessar a proxima tela.           </li>  
+    </ul>
+  </li>
+   <li>Confirmation
+    <ul>
+      <li>Mostra as informações principais da compra para a confirmação do usuário.</li>  
+    </ul>
+  </li>
+  
 
 </ul>
