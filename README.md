@@ -1,12 +1,8 @@
 # Frontend-Online-Store
-<img src=”.src/img/app-images/app-1.png” width="80">
-<img src=”.src/img/app-images/app-2.png” width="80">
-<img src=”.src/img/app-images/app-3.png” width="80">
-<img src=”.src/img/app-images/app-4.png” width="80">
-<img src=”.src/img/app-images/app-5.png” width="80">
-<img src=”.src/img/app-images/app-6.png” width="80">
-
-Se quiser saber mais clique <a href="https://github.com/Rods27/frontend-online-store/tree/master/src/img">aqui.</a>
+<img src="/src/img/app-images/app-1.png" width="500" />
+<img src="/src/img/app-images/app-2.png" width="500" />
+<img src="/src/img/app-images/app-3.png" width="500" />
+Se quiser ver cada imagem individualmente clique <a href="https://github.com/Rods27/frontend-online-store/tree/master/src/img/app-images">aqui.</a>
 
 ## O QUE DEVERÁ SER DESENVOLVIDO
 
