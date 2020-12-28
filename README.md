@@ -8,5 +8,4 @@
 
 Se quiser ver cada imagem individualmente clique <a href="https://github.com/Rods27/frontend-online-store/tree/master/src/img/app-images">aqui.</a>
 
-
 # Porque ?
