@@ -16,8 +16,24 @@ Email: rods.leite27@gmail.com e <a href="https://linkedin.com/in/rodrigoleite27"
 
 ## Observações
 
-1- Não tem tela de Login
-2- Os formulários são apenas por questão de layout
-3- Não implementado mobile.
+<ul>
+  <li>Não tem tela de Login</li>
+  <li>Os formulários são apenas por questão de layout</li>
+  <li>Não implementado mobile.</li>
+</ul>
 
-##
+## Funcionalidades
+
+<ul>
+  <li>Faz uma pesquisa na API do Mercado Livre e filtra produtos de acordo com a pesquisa e a categoria (Games, Celulares, Veículos, Imóveis e etc..).</li>
+  <br>
+  <li>Ao pesquisar, aparecerá uma lista de no máximo 50 resultados onde aparecerão apenas 2 linhas com 6 produtos cada e o usuário poderá controlar com os botões Up e Down</li>
+  <br>
+  <li>Search
+    <ul>
+      <li>Pesquisa produtos de acordo com a categoria ou a query digitada na barra de buscas.</li>  
+      <li>Lista os produtos e o usuário pode adicoina-los ao carrinho. </li> 
+    </ul>
+  </li>
+
+</ul>
