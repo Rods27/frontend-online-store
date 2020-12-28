@@ -28,7 +28,7 @@ Email: rods.leite27@gmail.com e <a href="https://linkedin.com/in/rodrigoleite27"
 <ul>
   <li>Faz uma pesquisa na API do Mercado Livre e filtra produtos de acordo com a pesquisa e a categoria (Games, Celulares, Veículos, Imóveis e etc..).</li><br>
   <li>Ao pesquisar, aparecerá uma lista de no máximo 50 resultados onde aparecerão apenas 2 linhas com 6 produtos cada e o usuário poderá controlar com os botões Up e Down</li><br>
-  <li>Search
+  <li>Search<br>
     <ul>
       <li>Pesquisa produtos de acordo com a categoria ou a query digitada na barra de buscas.</li>  
       <li>Lista os produtos e o usuário pode adicoina-los ao carrinho uma vez.</li> 
