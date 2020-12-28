@@ -1,8 +1,12 @@
-# Boas vindas ao repositório do projeto de Front-End Online Store!
+# Frontend-Online-Store
+<img src=”./img/app-images/app-1.png” width="80">
+<img src=”./img/app-images/app-2.png” width="80">
+<img src=”./img/app-images/app-3.png” width="80">
+<img src=”./img/app-images/app-4.png” width="80">
+<img src=”./img/app-images/app-5.png” width="80">
+<img src=”./img/app-images/app-6.png” width="80">
 
-Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Fique atento a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
-
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir deste repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
+Se quiser saber mais clique <a href="https://github.com/Rods27/frontend-online-store/tree/master/src/img">aqui.</a>
 
 ## O QUE DEVERÁ SER DESENVOLVIDO
 
