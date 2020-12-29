@@ -10,7 +10,7 @@ Link da pasta das imagens <a href="https://github.com/Rods27/frontend-online-sto
 
 ## Teste de Velocidade pelo Google
 
-<img align ="center" src="/src/img/app-image/speed-test.png" width="1200" />
+<img align ="center" src="/src/img/app-images/speed-test.png" width="1200" />
 
 ## Feedback 
 
