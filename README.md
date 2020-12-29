@@ -31,7 +31,7 @@ Email: rods.leite27@gmail.com e <a href="https://linkedin.com/in/rodrigoleite27"
   <li>Search
     <ul>
       <li>Pesquisa produtos de acordo com a categoria ou a query digitada na barra de buscas.</li>  
-      <li>Lista os produtos e o usuário pode adicoina-los ao carrinho uma vez.</li> 
+      <li>Lista os produtos e o usuário pode adiciona-los ao carrinho uma vez.</li> 
     </ul><br>
   </li>
   
