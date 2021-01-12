@@ -85,4 +85,4 @@ Redux-Thunk<br><br>
 `npm i redux-thunk`<br><br>
 
 ## Link do deploy
-Teste o site <a href="https://rods27.github.io/frontend-online-store/">aqui.</a>
+Teste o site <a href="https://rods27.github.io/frontend-online-store/" target="_blank">aqui.</a>
