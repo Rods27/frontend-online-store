@@ -1,0 +1,157 @@
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  box-shadow: inset 0 0 3px rgba(0,0,0,0.5); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+$primary-color: #333;
+$secondary-color: whitesmoke;
+
+.toogle-shoppingcart-container{
+  z-index: 9000;
+  position: fixed;
+  left: -600px;
+  top: 15%;
+  background-color: $primary-color;
+  height: 80%;
+  width: 550px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition: all ease-out 0.8s;
+  opacity: 0.9;
+
+  .toogle-cart-header {
+    align-items: center;
+    display: flex;
+    i {
+      font-size: 50px;
+      color: $secondary-color;
+      margin: 12px;
+    }
+    span {
+      margin-left: 40px;
+      font-size: 35px;
+      color: $secondary-color;
+    }
+  }
+
+  .toogle-shoppingcart-empty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+    i {
+      color: $secondary-color;
+      font-size: 150px;
+    }
+    p {
+      color: $secondary-color;
+      font-size: 20px;
+    }
+  }
+
+  .toogle-center-container {
+    height: 80%;
+    overflow-x: hidden;
+    .cart-item {
+      display: flex;
+      align-items: center;
+      color: $secondary-color;
+      display: flex;
+      height: 10%;
+      margin: 20px auto;
+      img{
+        position: relative;
+        left: 10px;
+        width: 80px;
+        border-radius: 4px;
+      }
+      .toogle-title {
+        width: 48%;
+        position: relative;
+        left: 20px;
+      }
+      .toogle-quantity {
+        margin-left: 15px;
+        button {
+          background: none;
+          border: none;
+          outline: none;
+          color: white;
+          margin: 0;
+          padding: 0ex;
+        }
+        i, span {padding: 7px;}
+      }
+      .toogle-price {
+        margin-left: 15px;
+      }
+    }
+  }
+
+  .total {
+    color: $secondary-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    height: 78px;
+    margin-top: 2px;
+    button {
+      background: $secondary-color;
+      color: $primary-color;
+      outline: none;
+      border: none;
+      border-radius: 3px;
+      width: 250px;
+      height: 40px;
+      font-size: 15px;
+      font-weight: 600;
+      &:hover {
+        transition: 0.2s;
+        box-shadow: white;
+        box-shadow: 0 1px 1px 0 $secondary-color, 0 -1px 3px 0 $secondary-color;
+      }
+    }
+  }
+}
+
+.toogle-in {
+  left: -0px;
+}
+
+@media (max-height:800px) {
+  .toogle-center-container {
+    height: 70%;
+  }
+}
+
+@media (min-height:801px) {
+  .toogle-center-container {
+    height: 75%;
+  }
+}
+
+@media (min-height:900px) {
+  .toogle-center-container {
+    height: 78%;
+  }
+}
