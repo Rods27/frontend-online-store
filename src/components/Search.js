@@ -90,8 +90,8 @@ class Search extends Component {
     return (
       <div className="master-container">
         <header className="header">
-          <div className="form-div">
-            <form className="searchForm">
+          <div className="search-div">
+            <form className="searchBar">
               <i class="fas fa-search search-button"
                 onClick={ this.handleClick }
               ></i>

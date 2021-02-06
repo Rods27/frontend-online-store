@@ -3,14 +3,6 @@ import { Route, Switch } from 'react-router-dom';
 import Search from './components/Search';
 import Checkout from './pages/Checkout';
 import Confirmation from './components/Confirmation';
-import './App.css';
-import './styles/productSlider.css'
-import './styles/categorySlider.css'
-import './styles/productDetails.css'
-import './styles/shoppingCart.css'
-import './styles/shoppingCart.css'
-import './styles/checkout.css'
-import './styles/confirmation.css'
 
 class App extends React.Component {
   constructor() {

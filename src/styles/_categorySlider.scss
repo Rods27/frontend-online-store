@@ -1,0 +1,56 @@
+@mixin controllerCommons() {
+  height:50px;
+  width: 100%;
+  border-radius: 4px;
+  border: none;
+  background: none;
+  outline: none;
+  &:hover {
+    background: rgba(0, 0, 0, 0.356);
+    color: whitesmoke;
+  }
+}
+
+@mixin flexCommons() {
+  display: flex;
+  flex-direction: column;
+}
+
+.category-container {
+  @include flexCommons();
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+  Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  min-width: 300px;
+  height: 750px;
+  margin: 80px 30px 0 30px;
+  border: 1px solid rgb(185, 185, 185);
+  border-radius: 5px;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,.1), 0 -1px 3px 0 rgba(0,0,0,.1);
+
+  #goUp {
+    @include controllerCommons();
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-bottom: 5px;
+  }
+
+  #goDown {
+    @include controllerCommons();
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-top: 3px;
+  }
+
+  .categories-div {
+    @include flexCommons();
+    overflow-y: hidden;
+
+    .category-element {
+      transition: 0.2s;
+      font-size: 20px;
+      margin: 0 0 5px 0;
+      padding: 3px 0 2px 5px;
+    }
+  }
+}

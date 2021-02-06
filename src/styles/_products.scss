@@ -1,0 +1,109 @@
+
+@mixin controllerCommons() {
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 25px;
+  color: #333;
+  height:50%;
+  width: 50px;
+  &:hover {
+    background: rgba(0, 0, 0, 0.4);
+    color: whitesmoke;
+  }
+}
+@mixin displayJustify() {
+  display: flex;
+  justify-content: center;
+}
+
+a {text-decoration: none;color: black;}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 60px;
+  transform: translateX(-5%);
+  .controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 760px;
+    #go-up-product {
+      @include controllerCommons();
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+    }
+    #go-down-product {
+      @include controllerCommons();
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+  }
+  .product-container {
+    @include displayJustify();
+    flex-wrap: wrap;
+    width: 90%;
+    height: 800px;
+    overflow: hidden;
+    .product-content {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      min-width: 200px;
+      max-width: 200px;
+      height: 380px;
+      border: .1px solid rgba(0, 0, 0, 0.125);
+      border-radius: 6px;
+      margin: 9px;
+      background-color: rgb(255, 255, 255);
+      transition: 0.5s;
+      &:hover {
+        box-shadow: 0 7px 10px 0 rgba(0,0,0,.2), 0 1px 3px 0 rgba(0,0,0,.1);
+        border: 1px solid rgb(185, 185, 185);
+      }
+      .img-div {
+        @include displayJustify();
+        img {width: 196px;}
+      }
+      .product-title-div {
+        @include displayJustify();
+        width: 80%;
+        height: 170px;
+        flex-flow: column;
+        margin-left: 5px;
+      }
+      .addToCart {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        .price {
+          width: 100%;
+          position: relative;
+          color: #333;
+          font-size: 25px;
+          margin-left: 5px;
+        }
+        button {
+          background: transparent;
+          border: none;
+          color:  #3acde7;
+          cursor: pointer;
+          text-shadow: rgba(0, 0, 0, 0.5) 0 1px 2px;
+          width: 60px;
+          height: 60px;
+          margin-right: 5px;
+          transition: 0.3s;
+          &:hover {color: #333;}
+          &:focus {color: #333;outline: none;}
+          i {font-size: 50px;width: 100%;}
+        }
+      }
+    }
+  }
+}

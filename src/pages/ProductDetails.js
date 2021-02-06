@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import Rater from 'react-rater';
 import 'react-rater/lib/react-rater.css';
 import PropTypes from 'prop-types';
-import '../App.css';
 import { productPrice, productItem, productDetails, productQuantity, productID, cartListHandler } from '../actions';
 import { connect } from 'react-redux';
 
